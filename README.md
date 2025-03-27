@@ -1,4 +1,4 @@
-# LnT BE Final Project
+# LnT BE Final Project 🏢
 
 Welcome to the **LnT BE Final Project**! This application includes various features such as CRUD, product catalog, dashboard, invoices, user authentication, and more. All core functionalities are accessible to users and admins based on their roles.
 
