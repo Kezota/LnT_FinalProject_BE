@@ -69,6 +69,7 @@ Follow these steps to set up the project on your local machine:
    ```
 10. Access the application at `http://localhost:8000` in your browser.
 
+<br>
 
 ## 🔒 Application Routes
 
