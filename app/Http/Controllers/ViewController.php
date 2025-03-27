@@ -35,9 +35,9 @@ class ViewController extends Controller
         return view('admin.dashboard');
     }
 
-    public function viewInsertProductPage()
+    public function viewAddProductPage()
     {
-        return view('admin.insertProduct');
+        return view('admin.addProduct');
     }
 
     public function viewEditProductPage()
