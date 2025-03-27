@@ -10,6 +10,7 @@
                 @if (Auth::guard('user')->check())
                     <a class="nav-link {{ request()->is('user/catalog') ? 'active' : '' }}" href="{{ route('user.catalog') }}">Catalog</a>
                     <a class="nav-link {{ request()->is('user/cart') ? 'active' : '' }}" href="{{ route('user.cart') }}">Cart</a>
+                    <a class="nav-link {{ request()->is('user/history') ? 'active' : '' }}" href="{{ route('user.history') }}">History</a>
                 @elseif (Auth::guard('admin')->check())
                     <a class="nav-link {{ request()->is('admin/dashboard') ? 'active' : '' }}" href="{{ route('admin.dashboard') }}">Dashboard</a>
                     <a class="nav-link {{ request()->is('admin/add-product') ? 'active' : '' }}" href="{{ route('admin.addProduct') }}">Add Product</a>

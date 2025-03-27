@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-
 class ViewController extends Controller
 {
     public function viewHomePage()
@@ -18,30 +17,5 @@ class ViewController extends Controller
     public function viewRegisterPage()
     {
         return view('auth.register');
-    }
-
-    public function viewCatalogPage()
-    {
-        return view('user.catalog');
-    }
-
-    public function viewCartPage()
-    {
-        return view('user.cart');
-    }
-
-    public function viewDashboardPage()
-    {
-        return view('admin.dashboard');
-    }
-
-    public function viewAddProductPage()
-    {
-        return view('admin.addProduct');
-    }
-
-    public function viewEditProductPage()
-    {
-        return view('admin.editProduct');
     }
 }

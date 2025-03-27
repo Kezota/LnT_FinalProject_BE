@@ -37,6 +37,14 @@ class BarangSeeder extends Seeder
         ]);
 
         Barang::create([
+            'kategori_barang_id' => $elektronik,
+            'nama_barang' => 'Cas HP',
+            'harga_barang' => 75000,
+            'jumlah_barang' => 20,
+            'foto_barang' => 'cas.jpg'
+        ]);
+
+        Barang::create([
             'kategori_barang_id' => $makanan,
             'nama_barang' => 'Mie Instant',
             'harga_barang' => 5000,
